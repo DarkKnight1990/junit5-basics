@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.piklu.MathUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.079 s <<< FAILURE! - in com.piklu.MathUtilsTest
+com.piklu.MathUtilsTest.testDivide  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: divide by zero should throw error ==> Unexpected exception type thrown ==> expected: <java.lang.NullPointerException> but was: <java.lang.ArithmeticException>
+	at com.piklu.MathUtilsTest.testDivide(MathUtilsTest.java:21)
+Caused by: java.lang.ArithmeticException: / by zero
+	at com.piklu.MathUtilsTest.lambda$0(MathUtilsTest.java:21)
+	at com.piklu.MathUtilsTest.testDivide(MathUtilsTest.java:21)
+
